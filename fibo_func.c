@@ -6,7 +6,7 @@ main()
 	printf("%d %d",i1, i2);
 	fibo(a);
 }
-
+//I will use the febo recursion function
 int fibo(int n)
 {
 	int i,i1=0,i2=1,i3;
