@@ -12,10 +12,11 @@ main()
 		printf("\nArray value : %d",arr[i]);
 	}
     //for(i=0;i<n;i++)
-    i=0;
-    while(i<n)
+   // i=0;
+  /*  while(i<n)
     {   
     	printf("\n array value reprint %d\n",arr[i]);
     	i++;
 	}
+	*/
 }
