@@ -8,4 +8,4 @@ main()
 	printf("\nString in upper case : %s",strupr(str));
 	printf("\nString in lower case : %s",strlwr(str));
 	
-}
+} 
