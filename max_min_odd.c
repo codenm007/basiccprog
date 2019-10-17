@@ -31,6 +31,7 @@
 	printf(" %d\n",a[i]);
 	
     }
+    // printing of odd elements
     printf("\n Odd elements:");
     for(i=0;i<n;i++)
     {
