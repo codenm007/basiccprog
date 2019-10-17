@@ -10,9 +10,9 @@
 	scanf("%d",&a[i]);
     }
 	// BUBBLE SEARCH ALGORITHM
-	for(i=0;i<n-1;i++)
+	for(i=0;i<n-1;++i)
 	{
-		for (j=0;j<n-i;j++)
+		for (j=i+1;j<n-i;++i)
 		{
     	if(a[j]>a[j+1])
 		{
@@ -21,10 +21,11 @@
         a[j]=a[j+1];
         a[j+1]=temp;
 	}
+	
    }	
    }
    // printing after sorting
-   printf("\n Printing array after sorting:");
+   printf("\n Printing array after sorting in descending form:");
    for(i=0;i<n;i++)
 	{
 	printf(" %d",a[i]);
